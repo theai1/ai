@@ -162,7 +162,7 @@
             userInputField.value = '';
 
             try {
-                const webhookUrl = "https://mohdrayyan.app.n8n.cloud/webhook-test/867e7de7-52cf-4b5e-a37a-9e6e36fe61bd"; // Replace with your n8n webhook URL
+                const webhookUrl = "https://api.openai.com/v1/chat/completions"; // Replace with your n8n webhook URL
 
                 const response = await fetch(webhookUrl, {
                     method: 'POST',
